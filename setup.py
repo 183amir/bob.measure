@@ -19,6 +19,8 @@ packages = ['blitz >= 0.10', 'boost']
 boost_modules = ['system']
 
 setup(
+    namespace_packages=['bob'],
+
 
     name='bob.measure',
     version=version,
